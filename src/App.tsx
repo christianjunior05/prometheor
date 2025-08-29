@@ -3,7 +3,7 @@ import Homepage from "./components/Homepage/Homepage"
 
 export default function App() {
   return (
-    <div className=" text ">
+    <div className=" text-me">
   <Navbar/>
   <Homepage/>
     </div>
