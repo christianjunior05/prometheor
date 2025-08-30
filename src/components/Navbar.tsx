@@ -6,7 +6,7 @@ export default function Navbar() {
    <nav className="bg-blue flex items-center justify-between p-5  ">
     <img src="/logo.png" alt="" />
 
-<ul className=" flex text-sm  text-white items-center font-lato justify-between  w-8/12">
+<ul className=" flex text-sm  text-white items-center font-lato justify-between  w-9/12">
 <li> Accueil</li>
 <li> Nos  offres  d'orientation </li>
 <li> Nos stages</li>
