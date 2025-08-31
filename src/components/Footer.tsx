@@ -1,15 +1,45 @@
-import Button from "./lewis/miniComponents/Button"
+
 const Footer=()=> {
   return (
-      <div className=" pl-20 place-content-center bg-footer my-10 h-[500px] bg-no-repeat bg-cover bg-center">
-           <div className="  mb-5  w-2/5 h-80  py-5 px-10 bg-white/50 rounded-xl">
-           <h2 className=" mb-5 font-dmserif text-5xl text-blue "> Prêt à passer à l’étape suivante ?</h2>
-           <p className=" mb-5 font-lato text-">Choisissez dès maintenant l’un de nos conseillers pour définir ensemble la formule la plus adaptée.</p>
-           <p className=" mb-5 font-lato ">Prendre un rendez-vous :</p>   
-           <Button text="Trouvez un conseiller" icons={true} />
+      <div className=" bg-blue text-white p-10  ">
 
-           </div>
-       </div>
+        <div className=" flex  justify-between items-start " >
+      <ul  className=" ">
+          <li className="mb-5"><img src="/logo.png" alt=" logo" /></li>
+          <li className="mb-5">Email : contact@educompetence.fr</li>
+          <li className="mb-5"> Telephone : 01.23.45.67.89 </li>
+          <li className="mb-5"> Devenir conseillère ? </li>
+        </ul>
+
+        <ul className="  ">
+          <li className="mb-5">Lien utiles </li>
+          <li className="mb-5">CGV</li>
+          <li className="mb-5"> Politique de confidentialité </li>
+          <li className="mb-5"> Plan du site</li>
+        </ul>
+
+
+        <ul className="  ">
+          <li className="mb-5">Support </li>
+          <li className="mb-5">Contactez-nous </li>
+        
+        </ul>
+
+         <div className=" ">
+          <ul>
+            <li className="mb-5">Newsletter</li>
+            <li className="mb-5">Inscrivez-svous à la newsletter pour restez informés !</li>
+          </ul>
+          <form action="" className=" bg-white flex rounded-full p-1 ">
+            <input type="email" name="" id="" placeholder=" Adresse mail" className="  py-2 bg-transparent w-4/5 rounded-full placeholder:text-black text-black mx-5 outline-none" />
+            <button className=" border bg-jauneOr w-40 rounded-full"> S'inscrire </button>
+          </form>
+         </div>
+        </div>
+       <img src="/appliFooter.png" alt="" className="my-10" />
+
+       <span>© 2025 Educompétence | Tous droits réservés</span>
+      </div>
   )
 }
 export default Footer 

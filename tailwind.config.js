@@ -9,7 +9,8 @@ export default {
        colors:{
         blue:"#0F0D59",
         jauneOr:"#E6BF58",
-        blanc:"#FFFFFF"
+        blanc:"#FFFFFF",
+        rose:"#E6BF58"
 
        },
        fontFamily:{
