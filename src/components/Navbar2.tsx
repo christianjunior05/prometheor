@@ -2,7 +2,7 @@ import { HiOutlineLockClosed } from "react-icons/hi2";
 import { FaGraduationCap } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 
-export default function Navbar() {
+export default function Navbar2() {
   const location = useLocation();
 
   const isActive = (path: string) => {
@@ -32,26 +32,18 @@ export default function Navbar() {
         </li>
         <li>
           <Link 
-            to="/qui-sommes-nous" 
-            className={`cursor-pointer hover:text-yellow-400 transition-colors ${isActive('/qui-sommes-nous') ? 'text-yellow-400' : ''}`}
-          >
-            Nos offres d'orientation
-          </Link>
-        </li>
-        <li>
-          <Link 
-            to="/parcoursup-360" 
-            className={`cursor-pointer hover:text-yellow-400 transition-colors ${isActive('/parcoursup-360') ? 'text-yellow-400' : ''}`}
-          >
-            Nos offres Parcoursup
-          </Link>
-        </li>
-        <li>
-          <Link 
             to="/qui-sommes-nous-2" 
-            className={`cursor-pointer hover:text-yellow-400 transition-colors ${isActive('/stages-formations') ? 'text-yellow-400' : ''}`}
+            className={`cursor-pointer hover:text-yellow-400 transition-colors ${isActive('/qui-sommes-nous-2') ? 'text-yellow-400' : ''}`}
           >
-            Nos stages
+            Nos préparations
+          </Link>
+        </li>
+        <li>
+          <Link 
+            to="/formations-adultes" 
+            className={`cursor-pointer hover:text-yellow-400 transition-colors ${isActive('/formations-adultes') ? 'text-yellow-400' : ''}`}
+          >
+            Formations adultes certifiées
           </Link>
         </li>
         <li>
@@ -59,15 +51,7 @@ export default function Navbar() {
             to="/qui-sommes-nous" 
             className={`cursor-pointer hover:text-yellow-400 transition-colors ${isActive('/qui-sommes-nous') ? 'text-yellow-400' : ''}`}
           >
-            Qui sommes-nous?
-          </Link>
-        </li>
-        <li>
-          <Link 
-            to="/" 
-            className="cursor-pointer hover:text-yellow-400 transition-colors"
-          >
-            Blog
+            Qui sommes-nous ?
           </Link>
         </li>
         <li>
