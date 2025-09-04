@@ -3,7 +3,8 @@ import Homepage from "./components/Homepage/Homepage"
 import Footer from "./components/Footer"
 import PacksRepere from "./components/PacksRepere/PacksRepere"
 import Exploration from "./components/exploration/Exploration"
-import Trajectoire from "./components/Trajectoire/trajectoire"
+import Trajectoire from "./components/trajectoire/Trajectoire"
+
 
 import { Routes, Route } from "react-router-dom";
 
