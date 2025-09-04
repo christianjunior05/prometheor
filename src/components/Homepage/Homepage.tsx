@@ -177,7 +177,7 @@ export default function Homepage() {
 {/* Rencontrez nos conseillers */}
 
 
-<div className="flex flex-col justify-center gap-10  p-10  bg-jauneOr/5 flex-wrap">
+<div className="flex  justify-center gap-10  p-10  bg-jauneOr/5 flex-wrap">
   {/* Texte et liste */}
   <div className="w-full lg:w-7/12  space-y-4">
     <Title text1="Rencontrez " text2="nos conseillers" />
