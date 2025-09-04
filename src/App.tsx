@@ -5,7 +5,6 @@ import PacksRepere from "./components/PacksRepere/PacksRepere"
 import Exploration from "./components/exploration/Exploration"
 import Trajectoire from "./components/trajectoire/Trajectoire"
 
-
 import { Routes, Route } from "react-router-dom";
 
 
