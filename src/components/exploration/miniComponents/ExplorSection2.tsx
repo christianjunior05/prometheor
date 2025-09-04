@@ -1,11 +1,7 @@
 import Title from "../../Homepage/miniComponents/Title";
 import Coche from "../../Homepage/miniComponents/Coche";
 import ListElement from "./ListElement";
-import { TbPointFilled } from "react-icons/tb";
 
-type Typage={
-    ExplorSection:boolean,
-}
 
 const  ExplorSection=()=> {
     return ( 
