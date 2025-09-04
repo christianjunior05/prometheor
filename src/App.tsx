@@ -22,7 +22,7 @@ export default function App() {
             <Route path="/parcoursup-360" element={<Parcoursup360 />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
-        </main>
+        </main> 
         <Footer />
       </div>
     </Router>
