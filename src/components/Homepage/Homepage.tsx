@@ -66,7 +66,7 @@ export default function Homepage() {
 {/* pour qui ? */}
 
 
-<div className="flex flex-col md:flex-row h-auto md:h-[400px] bg-jauneOr/5 justify-center items-center gap-10 md:gap-40 px-6 md:px-20 py-10 md:py-0">
+<div className="flex my-20 flex-col md:flex-row h-auto md:h-[400px] bg-jauneOr/5 justify-center items-center gap-10 md:gap-40 px-6 md:px-20 py-10 md:py-0">
   {/* Image */}
   <div className="h-60 md:h-80 w-full md:w-auto flex justify-center items-center">
     <img
@@ -90,7 +90,7 @@ export default function Homepage() {
 
 {/* Nos solution d'orientation */}
 
-<div className="   mt-20 mb-40" >
+<div className="   mt-20  my-20 " >
   <div className="text-center  ">
   <Title text1="Nos solutions" text2="d'orientation"/>
 <p className="text-blue mt-10 mb-14  max-md:mx-5 " > Prometheor propose différents packs d'orientation pensés pour répondre à votre besoin:</p>
@@ -108,7 +108,7 @@ export default function Homepage() {
 
 {/* Parck Personnalisé  */}
 
-<div className="flex flex-col md:flex-row px-6 md:px-20 justify-center items-center gap-8 md:gap-12 bg-jauneOr/5 py-10 ">
+<div className="flex my-20 flex-col md:flex-row px-6 md:px-20 justify-center items-center gap-8 md:gap-12 bg-jauneOr/5 py-10 ">
   {/* Image */}
   <div className="h-64 md:h-72 w-full md:w-auto flex justify-center items-center">
     <img
@@ -177,7 +177,7 @@ export default function Homepage() {
 {/* Rencontrez nos conseillers */}
 
 
-<div className="flex  justify-center gap-10  p-10  bg-jauneOr/5 flex-wrap">
+<div className="flex my-10 justify-center gap-10  p-10  bg-jauneOr/5 flex-wrap">
   {/* Texte et liste */}
   <div className="w-full lg:w-7/12  space-y-4">
     <Title text1="Rencontrez " text2="nos conseillers" />
