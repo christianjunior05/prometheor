@@ -4,7 +4,7 @@ import { HiArrowRight } from "react-icons/hi2";
 // dans la section "nos solution d'orientation" de la page HomePage
 const EnsavoirPlus= ()=> {
     return ( 
-        <div className="w-80     shadow-black/5 shadow-sm rounded-2xl     ">
+        <div className="w-80  max-md:mb-5   shadow-black/5 shadow-sm rounded-2xl     ">
     <div className="w-full rounded-t-2xl">
     <img src="/photo2.png" alt="" className="size-full rounded-t-2xl" />
     </div>

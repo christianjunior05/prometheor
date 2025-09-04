@@ -1,27 +1,94 @@
-import { HiOutlineLockClosed } from "react-icons/hi2"; 
 
+import { HiOutlineLockClosed } from "react-icons/hi2";
+import { Link } from "react-router-dom";
+import { CiMenuBurger } from "react-icons/ci";
+import { IoMdClose } from "react-icons/io";
+import { useState } from "react";
 
 export default function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
-   <nav className="bg-blue flex items-center justify-between p-5  ">
-    <img src="/logo.png" alt="" />
+    <nav className="bg-blue text-white font-lato relative z-50  ">
+      <div className="flex justify-between items-center p-4">
+        {/* Logo */}
+        <div className="w-32 max-md:block max-lg:hidden">
+          <img src="/logo.png" alt="Logo" className="w-full object-cover" />
+        </div>
 
-<ul className=" flex text-sm  text-white items-center font-lato justify-between  w-9/12">
-<li> Accueil</li>
-<li> Nos  offres  d'orientation </li>
-<li> Nos stages</li>
-<li> Nos conseillers </li>
-<li> Qui sommes-nous </li>
-<li> Nous contacter </li>
-<li> Blog</li>
-<li> Nous contacter</li>
-<li className="flex items-center   w-24 justify-evenly text-jauneOr">
-    <HiOutlineLockClosed/>
-   <span> Connexion</span>
-</li>
-    </ul>
+        {/* Liens Desktop */}
+     <ul className="hidden md:flex space-x-6 items-center text-sm lg:text-base xl:text-lg font-medium whitespace-nowrap">
+  <li className="hover:text-jauneOr transition-all">
+    <Link to="/">Accueil</Link>
+  </li>
+  <li className="hover:text-jauneOr transition-all">
+    <Link to="/repere">Offres d'orientation</Link>
+  </li>
+  <li className="hover:text-jauneOr transition-all">
+    <Link to="/exploration">Stages</Link>
+  </li>
+  <li className="hover:text-jauneOr transition-all">
+    <Link to="/trajectoire">Conseillers</Link>
+  </li>
+  <li className="hover:text-jauneOr transition-all">Qui sommes-nous</li>
+  <li className="hover:text-jauneOr transition-all">Nous contacter</li>
+  <li className="hover:text-jauneOr transition-all">Blog</li>
+  <li className="flex items-center space-x-2 text-jauneOr">
+    <HiOutlineLockClosed />
+    <span>Connexion</span>
+  </li>
+</ul>
 
-    
-   </nav>
-  )
+
+        {/* Bouton Burger Mobile */}
+        <button
+          className="text-3xl md:hidden hover:text-jauneOr"
+          onClick={toggleMenu}
+        >
+          <CiMenuBurger />
+        </button>
+      </div>
+
+      {/* Menu Mobile (slide depuis la droite) */}
+      <div
+        className={`fixed top-0 right-0 h-full w-64 bg-blue text-white shadow-lg transform transition-transform duration-300 ease-in-out
+        ${menuOpen ? "translate-x-0" : "translate-x-full"}`}
+      >
+        <div className="flex justify-between items-center p-4 border-b border-gray-600">
+          <span className="text-lg font-bold">Menu</span>
+          <IoMdClose
+            className="text-2xl cursor-pointer hover:text-jauneOr"
+            onClick={toggleMenu}
+          />
+        </div>
+        <ul className="flex flex-col space-y-4 p-6">
+          <li onClick={toggleMenu}>
+            <Link to="/">Accueil</Link>
+          </li>
+          <li onClick={toggleMenu}>
+            <Link to="/repere">Offres d'orientation</Link>
+          </li>
+          <li onClick={toggleMenu}>
+            <Link to="/exploration">Stages</Link>
+          </li>
+          <li onClick={toggleMenu}>
+            <Link to="/trajectoire">Conseillers</Link>
+          </li>
+          <li onClick={toggleMenu}>Qui sommes-nous</li>
+          <li onClick={toggleMenu}>Nous contacter</li>
+          <li onClick={toggleMenu}>Blog</li>
+          <li className="flex items-center space-x-2 text-jauneOr" onClick={toggleMenu}>
+            <HiOutlineLockClosed />
+            <span>Connexion</span>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
 }
+
+

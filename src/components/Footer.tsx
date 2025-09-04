@@ -3,7 +3,7 @@ const Footer=()=> {
   return (
       <div className=" bg-blue text-white p-10  ">
 
-        <div className=" flex  justify-between items-start " >
+        <div className=" flex max-md:flex-col max-lg:space-y-5 flex-wrap justify-between items-start " >
       <ul  className=" ">
           <li className="mb-5"><img src="/logo.png" alt=" logo" /></li>
           <li className="mb-5">Email : contact@educompetence.fr</li>
@@ -30,7 +30,7 @@ const Footer=()=> {
             <li className="mb-5">Newsletter</li>
             <li className="mb-5">Inscrivez-svous à la newsletter pour restez informés !</li>
           </ul>
-          <form action="" className=" bg-white flex rounded-full p-1 ">
+          <form action="" className=" w-80 bg-white flex rounded-full p-1 ">
             <input type="email" name="" id="" placeholder=" Adresse mail" className="  py-2 bg-transparent w-4/5 rounded-full placeholder:text-black text-black mx-5 outline-none" />
             <button className=" border bg-jauneOr w-40 rounded-full"> S'inscrire </button>
           </form>

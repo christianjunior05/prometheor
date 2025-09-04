@@ -11,7 +11,7 @@ const Coche= ({text , text2 ,text3}:{text?:string  ,text2?:string, text3?:string
 }
 
 {            text2 &&   <li className="mb-2  flex  "><GiCheckMark className="  text-jauneOr mr-2  "/>
-<div className=" w-full "> <p className="  text-start   i "> {text2} </p> 
+<div className=" w-full "> <p className="  text-start    "> {text2} </p> 
 </div  >
  
  </li>
