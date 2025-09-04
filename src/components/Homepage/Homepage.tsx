@@ -66,7 +66,7 @@ export default function Homepage() {
 {/* pour qui ? */}
 
 
-<div className="flex flex-col md:flex-row h-auto md:h-[400px] bg-jauneOr/15 justify-center items-center gap-10 md:gap-40 px-6 md:px-20 py-10 md:py-0">
+<div className="flex flex-col md:flex-row h-auto md:h-[400px] bg-jauneOr/5 justify-center items-center gap-10 md:gap-40 px-6 md:px-20 py-10 md:py-0">
   {/* Image */}
   <div className="h-60 md:h-80 w-full md:w-auto flex justify-center items-center">
     <img
