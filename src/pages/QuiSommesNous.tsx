@@ -4,7 +4,7 @@ import { FaGraduationCap } from "react-icons/fa";
 export default function () {
   return (
     <div className="min-h-screen">
-     
+      
       {/* Hero Section - Transformé en Tailwind CSS */}
       <section
         className="relative w-full h-[480px] bg-cover bg-center bg-no-repeat"

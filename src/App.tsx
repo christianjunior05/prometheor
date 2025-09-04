@@ -1,10 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import QuiSommesNous1 from "./pages/QuiSommesNous1";
 import QuiSommesNous from "./pages/QuiSommesNous";
 import QuiSommesNous2 from "./pages/QuiSommesNous2";
 import Parcoursup360 from "./pages/Parcoursup360";
-import Navbar from "./components/Navbar";
+
 import Contact from "./pages/Contact";
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
         <Navbar/>
         <main className="flex-grow">
           <Routes>
+            <Route path="/" element={<QuiSommesNous1 />} />
             <Route path="/qui-sommes-nous-1" element={<QuiSommesNous1 />} />
             <Route path="/qui-sommes-nous" element={<QuiSommesNous />} />
             <Route path="/qui-sommes-nous-2" element={<QuiSommesNous2 />} />
