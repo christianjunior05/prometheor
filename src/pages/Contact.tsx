@@ -1,5 +1,5 @@
 import { useState, type FormEvent, type ChangeEvent } from "react";
-import Navbar2 from "../components/Navbar2";
+
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -24,7 +24,7 @@ export default function Contact() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Navbar2 />
+      
 
       <section className="relative w-full h-[320px] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/header.jpg')" }}>
         <div className="absolute inset-0" style={{ background: "rgba(12, 11, 11, 0.38)" }}></div>
