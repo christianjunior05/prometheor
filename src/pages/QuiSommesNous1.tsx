@@ -1,10 +1,10 @@
 import { FaCheck, FaGraduationCap } from "react-icons/fa";
-import Navbar2 from "../components/Navbar2";
+
 
 const Homepage = () => {
   return (
     <div className="min-h-screen">
-    <Navbar2 />
+   
       {/* Hero Section - Transformé en Tailwind CSS */}
       <section
         className="relative w-full h-[480px] bg-cover bg-center bg-no-repeat"

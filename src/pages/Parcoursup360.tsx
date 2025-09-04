@@ -1,10 +1,10 @@
 import { FaCheck, FaStar, FaArrowRight } from "react-icons/fa";
-import Navbar2 from "../components/Navbar2";
+
 
 export default function Parcoursup360() {
   return (
     <div className="min-h-screen">
-      <Navbar2 />
+      
       {/* Hero */}
       <section
         className="relative w-full h-[480px] bg-cover bg-center bg-no-repeat"
