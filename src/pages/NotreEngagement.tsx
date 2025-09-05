@@ -1,7 +1,7 @@
 import { FaCheck, FaGraduationCap } from "react-icons/fa";
 
 
-const Homepage = () => {
+const NotreEgagement = () => {
   return (
     <div className="min-h-screen">
    
@@ -308,4 +308,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default NotreEgagement;
