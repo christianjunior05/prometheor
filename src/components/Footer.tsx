@@ -1,7 +1,7 @@
 
 const Footer=()=> {
   return (
-      <div className=" bg-blue text-white p-10  ">
+      <div className=" bg-blue text-white  p-10  ">
 
         <div className=" flex max-md:flex-col max-lg:space-y-5 flex-wrap justify-between items-start " >
       <ul  className=" ">

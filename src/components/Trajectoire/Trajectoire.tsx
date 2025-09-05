@@ -32,11 +32,11 @@ list2="Étudiants : valider ses choix de poursuite d'études"
 textbutton="Trouver une conseillère"
 />
 
-<div className="flex flex-col md:flex-row items-center justify-center gap-10 my-6 mx-5 md:mx-20">
+<div className="flex flex-col md:flex-row items-center justify-center gap-5 my-6 mx-5 md:mx-20">
 
-  <div className="space-y-5 w-full md:w-7/12">
+  <div className="space-y-5 w-full md:w-9/12">
     <Title
-      text1="objectif du pack"
+      text1="Objectif du pack"
       text2="trajetctoire"
       text3="(690€)"
     />
@@ -84,6 +84,25 @@ textbutton="Trouver une conseillère"
         </div>
       </div>
 
+
+
+      <div className="space-y-4 text-sm">
+        <ul><Coche text3="4. Séance d'échange " /></ul>
+        <ul>
+          <ListElement text="Affinement et validation du projet professionnel" />
+          <ListElement text="Discussion approfondie autour des choix envisagés" />
+         
+        </ul>
+      </div>
+
+      <div className="space-y-4 text-sm">
+        <ul><Coche text3="5. Séance finale " /></ul>
+        <ul className="">
+          <ListElement text="Remise d'une synthèse personnalisée et complète" />
+          <ListElement text="Sélection de formations et d’établissements correspondant aux objectifs fixés et au profil de votre enfant" />
+         
+        </ul>
+      </div>
     </div>
   </div>
 
@@ -99,10 +118,22 @@ textbutton="Trouver une conseillère"
   text2="Une meilleure connaissance de lui-même et de ses atouts."
   text3="Un projet professionnel affiné et validé"
   text4="Un choix d’études clair et une stratégie solide pour Parcoursup."
-  textButton="contacter un conseiller"
+  textButton="Contacter un conseiller "
   icons={true}
   image="bg-trajectoireSection3"
   />
+
+  <Section6
+
+  image="photo4.png"
+  text1="Besoin de personnalié "
+  text2="votre accompagnement ?"
+  textbutton1="Contacter un conseiller " 
+ paragraphe1="Chaque enfant est unique, avec ses forces, ses aspirations et parfois des besoins particuliers."
+ paragraphe2="Chez Prometheor, nous co-construisons un accompagnement  adapté :  Rendez-vous de cadrage, mise en place d'une solution adaptée avec un suivi évolutif."
+  icon={true}
+
+/>
 
   <Section4
 
@@ -123,7 +154,7 @@ textbutton="Trouver une conseillère"
 
  <Section5
   Title="Prêt à avancer ?"
-  text="Contactez un conseiller pour un premier échange téléphonique :"
+  text="Contacter un conseiller pour un premier échange téléphonique :"
    textbutton="Trouvez un conseiller"
    image="bg-trajectoireSection5"
 
@@ -134,8 +165,8 @@ textbutton="Trouver une conseillère"
   image="photo5.jpg"
   text1="Découvrez "
   text2="nos autres packs"
-  textbutton1=" Pack exploration"
-  textbutton2="Pack repère"
+  textbutton1=" Pack exploration "
+  textbutton2="Pack repère "
   icon={true}
   />
         </div>

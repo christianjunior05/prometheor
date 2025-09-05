@@ -37,10 +37,24 @@ textbutton="Trouver un conseiller "
   text2="Une vision plus structurée"
   text3="Des recommandations personnalisées"
   text4="Un plan d'actions et des repères pour avancer sereinement"
-  textButton="contact un conseiller"
+  textButton="Contacter un conseiller "
   icons={true}
   image="bg-section3"
   />
+
+<Section6
+
+  image="photo4.png"
+  text1="Besoin de personnalié "
+  text2="votre accompagnement ?"
+  textbutton1="Contacter un conseiller " 
+  paragraphe1="Chaque enfant est unique, avec ses forces, ses aspirations et parfois des besoins particuliers."
+  paragraphe2="Chez Prometheor, nous co-construisons un accompagnement  adapté :  Rendez-vous de cadrage, mise en place d'une solution adaptée avec un suivi évolutif."
+  icon={true}
+
+/>
+
+
   <Section4
   
      img1={ false}
@@ -62,7 +76,7 @@ textbutton="Trouver un conseiller "
   <Section5
   Title="Prêt à avancer ?"
   text="Contactez un conseiller pour un premier échange téléphonique :"
-   textbutton="Trouvez un conseiller"
+   textbutton="Trouver un conseiller"
    image="bg-section5Repere"
 
 

@@ -23,9 +23,9 @@ const Section3 = ({
 }: Typage) => {
   return (
     <div
-      className={`${image} bg-cover bg-center h-[500px] flex flex-col justify-center my-20`}
+      className={`${image} bg-cover bg-center h-[500px] flex flex-col justify-center my-32`}
     >
-      <div className="space-y-5 ml-20 max-sm:mx-2 max-[1100px]:w-3/5 max-[740px]:w-4/5   w-2/5 shrink-0  p-6 rounded-xl bg-white/70">
+      <div className="space-y-5 ml-20 max-sm:mx-2 max-[1100px]:w-3/5 max-[740px]:w-4/5   w-2/5 shrink-0  p-6 rounded-xl bg-white/80">
         <h5 className="text-xl max-md:text-lg md:text-2xl font-dmserif text-blue">
           {text1}
         </h5>

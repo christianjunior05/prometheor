@@ -11,7 +11,8 @@ export default {
         jauneOr:"#E6BF58",
         blanc:"#FFFFFF",
         rose:"#E6BF58",
-        gris:"#C4C4C4"
+        gris:"#9D9D9D"
+        
        },
        fontFamily:{
         lato:"lato: ['Lato', 'sans-serif']",
@@ -31,6 +32,7 @@ export default {
                 explorsection4:"url('/explorsection4.png')",
                 explorsection5:"url('/explorsection5.png')",
                 trajectoire:"url('/trajectoire.png')",
+                trajectoireHeader:"url('/trajectoire.jpg')",               
                 trajectoireSection3:"url('/trajectoireSection3.png')",
                 trajectoireSection5:"url('/trajectoireSection5.png')",
                 

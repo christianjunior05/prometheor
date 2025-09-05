@@ -107,15 +107,15 @@ textbutton="Trouver une conseillère"
 
   <div className="space-y-5 w-full md:w-7/12">
     <Title
-      text1="objectif du"
+      text1="Objectif du"
       text2="pack exploration"
-      text3="(490)"
+      text3="(490€)"
     />
 
     <p className="text-blue font-lato">
       Aider votre enfant à y voir clair dans ses options scolaires et professionnelles, en identifiant ses atouts, ses centres d’intérêt et les pistes d’orientation les plus cohérentes avec son profil
     </p>
-    <span className="text-jauneOr block">un accompagnement en 3 étapes :</span>
+    <span className="text-jauneOr block">Un accompagnement en 3 étapes :</span>
 
     <div className="space-y-5">
 
@@ -174,9 +174,9 @@ textbutton="Trouver une conseillère"
   text2="  Une vision claire du profil et des motivations de votre enfant."
   text3=" Des secteurs d’activité adaptés à ses intérêts et aptitudes."
   text4=" Un plan d’actions concret pour orienter ses choix scolaires et extrascolaires."
-  textButton="contacter un conseiller"
+  textButton="contacter un conseiller "
   icons={true}
-  image="bg-explorsection4"
+  image="bg-explorsection4 "
   />
 
 <Section4
@@ -197,10 +197,10 @@ textbutton="Trouver une conseillère"
 />
 
 <Section5
-Title="pret a avancer"
+Title="Prêt à avancer ?"
 text='Contactez un conseiller pour un premier échange téléphonique:'
-textbutton="Trouver un conseiller"
-image="bg-explorsection5"
+textbutton="Trouver un conseiller "
+image="bg-explorsection5 "
 
 
 />
@@ -210,8 +210,8 @@ image="bg-explorsection5"
   image="explorsection6.jpg"
   text1="Découvrez "
   text2="nos autres packs"
-  textbutton1="Pack repère"
-  textbutton2="Pack trajectoire"
+  textbutton1="Pack repère "
+  textbutton2="Pack trajectoire "
   icon={true}
   
 />

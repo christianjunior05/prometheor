@@ -1,4 +1,4 @@
-
+import '../App.css'
 import { HiOutlineLockClosed } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 import { CiMenuBurger } from "react-icons/ci";
@@ -8,32 +8,48 @@ import { useState } from "react";
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  
+
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
 
   return (
-    <nav className="bg-blue text-white font-lato relative z-50  ">
-      <div className="flex justify-between items-center p-4">
+    <nav className=" bg-blue text-white font-lato relative z-50  ">
+      <div className="flex justify-between items-baseline p-7">
         {/* Logo */}
-        <div className="w-32 max-md:block max-lg:hidden">
+        <div className="w-48 max-md:block max-lg:hidden">
           <img src="/logo.png" alt="Logo" className="w-full object-cover" />
         </div>
 
         {/* Liens Desktop */}
-     <ul className="hidden md:flex space-x-6 items-center text-sm lg:text-base xl:text-lg font-medium whitespace-nowrap">
+     <ul className="  md:flex space-x-6 items-center text-xs lg:text-base   whitespace-nowrap">
   <li className="hover:text-jauneOr transition-all">
-    <Link to="/">Accueil</Link>
+    <Link to="/"> Accueil</Link>
+
+  
+  </li>
+  <li className=" menu  hover:text-jauneOr transition-all   ">
+
+    <Link to="/repere">Nos offres d'orientation</Link>
+  <ul className=" ChildMenu    absolute z-20 text-white   leading-10 bg-blue w-44  rounded-md  ">
+      <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all   ">Pack trajectoire </li>
+      <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">Pack exploration </li>
+      <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">Pack repere </li>
+      <li className="cursor-pointer pl-2 rounded-b-md   bg-blue hover:text-jauneOr transition-all  ">Pack parcoursup 360 </li>
+    </ul>
+
+  </li>
+  <li className="menu  hover:text-jauneOr transition-all   space-y-5  ">
+    <Link to="/exploration">Nos stages</Link>
+
+    <ul className="absolute ChildMenu text-white    bg-blue   rounded-md ">
+      <li className="cursor-pointer hover:text-jauneOr p-2 rounded-md transition-all bg-blue ">Concours et test post Bac</li>
+    </ul>
   </li>
   <li className="hover:text-jauneOr transition-all">
-    <Link to="/repere">Offres d'orientation</Link>
-  </li>
-  <li className="hover:text-jauneOr transition-all">
-    <Link to="/exploration">Stages</Link>
-  </li>
-  <li className="hover:text-jauneOr transition-all">
-    <Link to="/trajectoire">Conseillers</Link>
-  </li>
+    <Link to="/trajectoire">Nos conseillers</Link>
+  </li> 
   <li className="hover:text-jauneOr transition-all">Qui sommes-nous</li>
   <li className="hover:text-jauneOr transition-all">Nous contacter</li>
   <li className="hover:text-jauneOr transition-all">Blog</li>
@@ -41,7 +57,7 @@ export default function Navbar() {
     <HiOutlineLockClosed />
     <span>Connexion</span>
   </li>
-</ul>
+    </ul>
 
 
         {/* Bouton Burger Mobile */}

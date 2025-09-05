@@ -30,14 +30,10 @@ const Section1 = ({
   textbutton,
 }: Typage) => {
   return (
-    <div className="flex justify-center items-center gap-20 my-20 flex-wrap">
+    <div className="flex justify-center items-center gap-20 my-32 flex-wrap">
       {/* Image */}
-      <div className="size-96 max-lg:w-80 max-lg:h-80 max-md:w-64 max-md:h-64">
-        <img
-          src={`/${image}`}
-          alt={alt}
-          className="size-full object-cover"
-        />
+      <div className="size-96 max-lg:w-80 max-lg:h-80 max-md:w-64 max-md:h-64 bg-gris ">
+       <img src={image} alt={alt} className="size-full " />
       </div>
 
       {/* Texte */}

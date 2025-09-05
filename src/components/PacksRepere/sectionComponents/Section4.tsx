@@ -40,7 +40,7 @@ const Section4=({
 }:Typage)=> {
     return (  
         <div className=" bg-blue  py-14 my-20 ">
-            <h3 className="text-3xl font-dmserif text-jauneOr mb-14 text-center "> ce qu'ils disent de l'accompagnement</h3>
+            <h3 className="text-3xl font-dmserif text-jauneOr mb-14 text-center "> Ce qu'ils disent de l'accompagnement</h3>
               <div className="flex items-center gap-10  justify-center ">
                            <FiArrowLeft className=" max-sm:hidden border size-10 p-2 shrink-0  rounded-full text-jauneOr border-jauneOr cursor-pointer hover:bg-jauneOr hover:text-white transition-all " />
 

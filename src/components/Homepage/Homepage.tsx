@@ -28,7 +28,7 @@ export default function Homepage() {
 
 
 
-<div className="flex flex-col md:flex-row justify-center items-start md:items-center my-10 space-y-10 md:space-y-0 md:space-x-10 px-6 md:px-20">
+<div className="flex flex-col md:flex-row justify-center items-start md:items-center mt-20 mb-60 space-y-10 md:space-y-0 md:space-x-10 px-6 md:px-20">
   {/* Texte */}
   <div className="font-lato flex-1 flex flex-col justify-between items-start space-y-6">
     <Title text1="Qui " text2=" sommes nous " text3="?" />
@@ -38,7 +38,7 @@ export default function Homepage() {
     <ul className="leading-7 text-jauneOr space-y-2">
       <li>
         <TbPointFilled className="inline mr-2" />
-        Environnement scolaire (méthodologie, handicap)
+         Environnement scolaire (méthodologie, handicap) 
       </li>
       <li>
         <TbPointFilled className="inline mr-2" />
@@ -78,7 +78,7 @@ export default function Homepage() {
 
   {/* Texte */}
   <div className="flex-1 max-w-md">
-    <Title text1="pour" text2="qui ?" />
+    <Title text1="Pour" text2="qui ?" />
     <ul className="leading-7 py-5 space-y-2">
       <Coche text="Les collégiens (à partir de la classe de 4ème)" />
       <Coche text="Lycéens" />

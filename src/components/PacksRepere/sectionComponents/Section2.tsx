@@ -6,7 +6,7 @@ import Coche from "../../Homepage/miniComponents/Coche";
 
 const Section2 = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16 my-20 px-6 md:px-0">
+    <div className="flex  flex-col md:flex-row items-center justify-center gap-10 md:gap-16  px-6 md:px-0">
       {/* Texte */}
       <div className="w-full md:w-1/2 space-y-4">
         <Title text1="Objectif du" text2="parck repère" text3="(150€ )" />
