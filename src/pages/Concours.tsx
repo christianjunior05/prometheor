@@ -1,7 +1,7 @@
 import { FaCheck, FaGraduationCap } from "react-icons/fa";
 
 
-const QuiSommesNous2 = () => {
+const Concours = () => {
   return (
     <div className="min-h-screen">
     
@@ -207,5 +207,5 @@ const QuiSommesNous2 = () => {
   );
 };
 
-export default QuiSommesNous2;
+export default Concours;
 
