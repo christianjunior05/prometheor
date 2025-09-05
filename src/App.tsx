@@ -1,30 +1,42 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import QuiSommesNous1 from "./pages/QuiSommesNous1";
-import QuiSommesNous from "./pages/QuiSommesNous";
-import QuiSommesNous2 from "./pages/QuiSommesNous2";
-import Parcoursup360 from "./pages/Parcoursup360";
-
+import Navbar from "./components/Navbar"
+import Homepage from "./components/Homepage/Homepage"
+import Footer from "./components/Footer"
+import PacksRepere from "./components/PacksRepere/PacksRepere"
+import Exploration from "./components/exploration/Exploration"
+import Trajectoire from "./components/Trajectoire/Trajectoire"
+import  NotreEngagement from "./pages/NotreEngagement";
+// import QuiSommeNous from "./pages/QuiSommeNous"
+import Concours from "./pages/Concours"
+import Parcours from "./pages/Parcours"
 import Contact from "./pages/Contact";
+import { Routes, Route } from "react-router-dom";
+
+
 
 export default function App() {
   return (
-    <Router>
-      <div className="min-h-screen flex flex-col">
-        <Navbar/>
-        <main className="flex-grow">
-          <Routes>
-            <Route path="/" element={<QuiSommesNous1 />} />
-            <Route path="/qui-sommes-nous-1" element={<QuiSommesNous1 />} />
-            <Route path="/qui-sommes-nous" element={<QuiSommesNous />} />
-            <Route path="/qui-sommes-nous-2" element={<QuiSommesNous2 />} />
-            <Route path="/parcoursup-360" element={<Parcoursup360 />} />
+
+    <main className="overflow-x-hidden">
+      <Navbar/>
+   <Routes>
+      <Route path="/" element={<Homepage />} />
+      <Route path="/repere" element={<PacksRepere />} />
+      <Route path="/exploration" element={<Exploration />} />
+      <Route path="/trajectoire" element={<Trajectoire />} />
+         <Route path="/notreengagement" element={<NotreEngagement />} />
+            {/* <Route path="/" element={<QuiSommesNous1 />} /> */}
+
+            <Route path="/Concours" element={<Concours />} />
+             <Route path="/parcours" element={<Parcours/>} />
+            {/* <Route path="/QuiSommesNous" element={<QuiSommesNous />} /> */}
+            
+           
             <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </main> 
-        <Footer />
-      </div>
-    </Router>
-  );
+         
+    </Routes>
+
+    <Footer/>
+   </main>
+
+)
 }
