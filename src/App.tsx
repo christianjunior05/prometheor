@@ -35,9 +35,7 @@ export default function App() {
     </Routes>
 
     <Footer/>
-    </main>
- 
-  )
+   </main>
+
+)
 }
-
-
