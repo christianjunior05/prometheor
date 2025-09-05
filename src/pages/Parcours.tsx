@@ -1,7 +1,7 @@
 import { FaCheck, FaStar, FaArrowRight } from "react-icons/fa";
 
 
-export default function Parcoursup360() {
+export default function Parcours() {
   return (
     <div className="min-h-screen">
       
