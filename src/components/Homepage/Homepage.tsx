@@ -94,11 +94,40 @@ export default function Homepage() {
   <div className="text-center  ">
   <Title text1="Nos solutions" text2="d'orientation"/>
 <p className="text-blue mt-10 mb-14  max-md:mx-5 " > Prometheor propose différents packs d'orientation pensés pour répondre à votre besoin:</p>
+ 
+ <div className=" flex justify-center  max-lg:items-center  gap-10 max-md:gap-5 flex-wrap ">
 
- <div className=" flex justify-center max-lg:items-center  gap-10 max-md:gap-5 flex-wrap  ">
-  <EnsavoirPlus/>
-  <EnsavoirPlus/>
-  <EnsavoirPlus/>
+ <EnsavoirPlus
+  titre1="Pack"
+  titre2="Repère"
+  objectif="apporter un premier éclairage complet et répondre à vos questions."
+  text1="Pour les collégiens qui veulent valider leur choix de voie (générale, technologique ou professionnelle)."
+  text2= "Pour aider les lycéens à choisir leurs spécialités et répondre à des interrogations spécifiques"
+  text3=" Pour les parents qui s'interrogent sur l'orientation de leur enfant"
+  image="/photo2.png"
+  />
+
+  <EnsavoirPlus
+  image="EnsavoirPlus2.png"
+  titre1="Pack"
+  titre2="Exploration"
+  objectif="Pour mieux se connaître et débuter sa démarche d'orientation"
+  text1="Collégiens : pour transformer un premier intérêt en projet préparatoire pour la seconde."
+  text2= "Lycéens : pour commencer à construire son parcours d'orientation et initialiser son dossier Parcoursup"
+  text3=" Étudiants qui s'interrogent sur une réorientation ou sur leur poursuite d’études."
+  
+  />
+  <EnsavoirPlus
+  image="EnsavoirPlus3.png"
+  titre1="Pack"
+  titre2="Trajectoire"
+  objectif="Explorer son profil et construire une stratégie d'orientation complète"
+  text1="Lycéens : pour définir et confirmer ses parcours d'orientation et construire sa stratégie Parcoursup"
+  text2= "Pour aider les lycéens à choisir leurs spécialités et répondre à des interrogations spécifiques"
+
+  
+  />
+ 
   <div>
 
   </div>
