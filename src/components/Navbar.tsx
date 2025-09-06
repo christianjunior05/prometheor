@@ -36,7 +36,7 @@ export default function Navbar() {
       <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all   ">Pack trajectoire </li>
       <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">Pack exploration </li>
       <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">Pack repere </li>
-      <li className="cursor-pointer pl-2 rounded-b-md   bg-blue hover:text-jauneOr transition-all  ">Pack parcoursup 360 </li>
+      <li className="cursor-pointer pl-2      rounded-b-md   bg-blue hover:text-jauneOr transition-all  ">Pack parcoursup 360 </li>
     </ul>
 
   </li>
