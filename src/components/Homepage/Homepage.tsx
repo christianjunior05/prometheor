@@ -137,7 +137,7 @@ export default function Homepage() {
 
 {/* Parck Personnalisé  */}
 
-<div className="flex my-20 flex-col md:flex-row px-6 md:px-20 justify-center items-center gap-8 md:gap-12 bg-jauneOr/5 py-10 ">
+<div className="flex my-28 flex-col md:flex-row px-6 md:px-20 justify-center items-center gap-8 md:gap-12 bg-jauneOr/5  ">
   {/* Image */}
   <div className="h-64 md:h-72 w-full md:w-auto flex justify-center items-center">
     <img
@@ -169,7 +169,7 @@ export default function Homepage() {
 
 
 
-<div className="flex max-sm:my-10 flex-col md:flex-row items-center justify-center gap-8  px-6 md:px-32 mb-10">
+<div className="flex max-sm:my-10 flex-col md:flex-row items-center justify-center gap-8  px-6 md:px-32 my-28 ">
   {/* Image */}
   <div className="w-full md:w-[600px] h-64 md:h-auto flex justify-center items-center">
     <img
