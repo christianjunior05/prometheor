@@ -1,10 +1,6 @@
 .ChildMenu{
 visibility:hidden;
-
-
 }
-
-
 
 .menu:hover .ChildMenu{
     visibility: visible;
