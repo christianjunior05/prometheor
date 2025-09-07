@@ -240,9 +240,9 @@ export default function Navbar() {
           </li>
 
           {/* Sous-menu Mobile : Ouvrir */}
-          <li  className='cursor-pointer hover:text-jauneOr'>
+          <li  className=''>
             <button
-              className="w-full text-left flex justify-between items-center"
+              className="w-full text-left flex justify-between items-center cursor-pointer hover:text-jauneOr"
               onClick={() => toggleSubmenu("ouvrir")}
             >
               Nos stages

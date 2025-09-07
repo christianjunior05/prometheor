@@ -49,12 +49,8 @@ export default function Homepage() {
         </div>
 
         {/* Image */}
-        <div className=" border h-[300px] md:h-[450px] w-full md:w-1/2 flex justify-center items-center">
-          <img
-            src="/QuiSommesNous.png"
-            alt="plusieurs personnes assises en train d'échanger"
-            className="object-cover h-full w-full"
-          />
+        <div className=" bg-gris border h-[300px] md:h-[450px] w-full md:w-1/2 flex justify-center items-center">
+        
         </div>
       </div>
 
@@ -128,7 +124,7 @@ export default function Homepage() {
 
       {/* Parck Personnalisé  */}
 
-      <div className="flex my-28 flex-col md:flex-row px-6 md:px-20 justify-center items-center gap-8 md:gap-12 bg-jauneOr/5  ">
+      <div className="flex my-28 py-10 flex-col md:flex-row px-6 md:px-20 justify-center items-center gap-8 md:gap-12 bg-jauneOr/5  ">
         {/* Image */}
         <div className="h-64 md:h-72 w-full md:w-auto flex justify-center items-center">
           <img
@@ -158,18 +154,18 @@ export default function Homepage() {
 
       {/* Accompagnement Parcoursup */}
 
-      <div className="flex max-sm:my-10 flex-col md:flex-row items-center justify-center gap-8  px-6 md:px-32 my-28 ">
+      <div className="flex  max-sm:my-10  flex-col md:flex-row items-center justify-center gap-8   my-28 ">
         {/* Image */}
-        <div className="w-full md:w-[600px] h-64 md:h-auto flex justify-center items-center">
+        <div className="w-96  md:w-96 h-64 md:h-auto flex justify-center items-center">
           <img
             src="/photo5.jpg"
             alt="Deux personnes assises en train d'échanger"
-            className="object-contain h-full w-full"
+            className=" h-full w-full"
           />
         </div>
 
         {/* Texte */}
-        <div className="w-full md:w-7/12  space-y-4">
+        <div className="w-full    space-y-4 md:w-7/12">
           <Title text1="Accompagnement" text2="Parcoursup" />
           <p className="text-base md:text-lg my-5">
             Module dédié aux élèves de terminale
@@ -219,7 +215,7 @@ export default function Homepage() {
           </ul>
 
           {/* Bouton inchangé */}
-          <Button text="Trouvez un conseiller" />
+          <Button text="Trouver un conseiller" />
         </div>
 
         {/* Composant profil */}
@@ -300,12 +296,12 @@ export default function Homepage() {
           <div className=" max-[1000px]:flex max-[1000px]:flex-col  size-full ">
             <Title text1="Webinars " text2="& Blog" />
             <button className=" text-white  max-sm:text-xs  block mb-5 mt-7   bg-jauneOr py-4 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
-              Decouvrir le blog
+              Découvrir le blog
               <HiArrowRight className="font-semibold text-xl ml-2  inline " />
             </button>
 
             <button className=" text-white block  max-sm:text-xs   bg-jauneOr py-4 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
-              Decouvir les Webinars
+              Découvir les Webinars
               <HiArrowRight className="font-semibold text-xl ml-2  inline " />
             </button>
           </div>
@@ -373,7 +369,7 @@ export default function Homepage() {
             ensemble la formule la plus adaptée.
           </p>
           <p className="max-xl:text-sm  font-lato ">Prendre un rendez-vous :</p>
-          <Button text="Trouvez un conseiller" icons={true} />
+          <Button text="Trouvez un conseiller " icons={true} />
         </div>
       </div>
     </div>
