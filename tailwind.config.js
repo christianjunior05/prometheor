@@ -31,6 +31,7 @@ export default {
         trajectoireHeader: "url('/trajectoire.jpg')",
         trajectoireSection3: "url('/trajectoireSection3.png')",
         trajectoireSection5: "url('/trajectoireSection5.png')",
+        ParcourSup: "url('/parcourSup.jpg')",
       },
     },
   },
