@@ -3,7 +3,7 @@ import Homepage from "./components/Homepage/Homepage"
 import Footer from "./components/Footer"
 import PacksRepere from "./components/PacksRepere/PacksRepere"
 import Exploration from "./components/exploration/Exploration"
-import Trajectoire from "./components/Trajectoire/Trajectoire"
+import Trajectoire from "./components/trajectoire/Trajectoire"
 import  NotreEngagement from "./pages/NotreEngagement";
 // import QuiSommeNous from "./pages/QuiSommeNous"
 import Concours from "./pages/Concours"
