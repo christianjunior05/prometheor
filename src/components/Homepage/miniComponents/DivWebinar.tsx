@@ -8,7 +8,7 @@ const  DivWebinaire=()=> {
             </div>
             <div className=" bg-white rounded-b-md h-1/2 p-4 leading-7 flex flex-col items-start justify-center">
                 <span className="block font-roboto text-xs bg-blue text-white px-3 py-1 rounded-full">WEBINAR</span>
-                <span className="block font-dmserif text-blue">Gesttion du Stress</span>
+                <span className="block font-dmserif text-blue">Gestion du Stress</span>
                          <button className="text-jauneOr  " > <span>Lire l'article </span> <HiArrowRight className="inline " /> </button>   
 
             </div>

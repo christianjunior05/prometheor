@@ -20,7 +20,7 @@ const Trajectoire= ()=> {
   trajectoire={true}
   />
 <Section1
-  image="photo4.png"
+  image=""
   alt="image"
 paragraphe1="Donnez à votre enfant les clés pour définir son projet et réussir Parcoursup avec confiance."
 paragraphe2="... Le Pack Trajectoire  est conçu pour offrir un accompagnement complet et structuré, depuis la découverte du profil et des intérêts de votre enfant jusqu’à la sélection précise de formations et d’établissements. Un parcours en plusieurs étapes pour avancer avec confiance, clarté et des choix solides pour l’avenir."
@@ -155,7 +155,7 @@ textbutton="Trouver une conseillère"
  <Section5
   Title="Prêt à avancer ?"
   text="Contacter un conseiller pour un premier échange téléphonique :"
-   textbutton="Trouvez un conseiller"
+   textbutton="Trouver un conseiller"
    image="bg-trajectoireSection5"
 
 

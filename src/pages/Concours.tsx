@@ -1,4 +1,5 @@
-import { FaCheck, FaGraduationCap } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
+
 
 
 const Concours = () => {
@@ -6,76 +7,65 @@ const Concours = () => {
     <div className="min-h-screen">
     
       {/* Hero Section - Transformé en Tailwind CSS */}
-      <section
-        className="relative w-full h-[480px] bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/gros-plan-sur-la-classe-virtuelle 2.png')" }}
-      >
-        {/* Overlay - rgba(12, 11, 11, 0.38) */}
-        <div className="absolute inset-0" style={{ background: "rgba(12, 11, 11, 0.38)" }}></div>
-        
-        {/* Hero Content */}
-        <div className="absolute flex flex-col items-start gap-3 left-[65px] top-1/2 transform -translate-y-1/2 w-[1184px] h-[247px]">
-          {/* Hero Badge - Label qualité OPRA */}
-          <div className="w-[1184px] h-[105px] text-white font-['DM_Serif_Display'] font-normal text-[40px] leading-[52px] order-0 flex-none">
-            Préparez efficacement vos <span className="text-yellow-400">concours</span> et <span className="text-yellow-400">certifications</span> post bac
-          </div>
-          
-          {/* Hero Title */}
-          <div className="w-[838px] h-[28px] text-white font-['DM_Serif_Display'] font-normal text-[25px] leading-[100%] order-1 flex-none mb-4">
-            Vous visez une école de commerce ou une école d'ingénieur après le bac ?
-          </div>
-          
-          {/* Hero Description */}
-          <div className="w-[1184px] h-[90px] text-white font-['DM_Serif_Display'] font-normal text-[20px] leading-[30px] order-2 self-stretch flex-none mt-2">
-            Vous souhaitez valoriser votre niveau en français ou en anglais avec une certification reconnue ?<br/>
-            Nous vous proposons des stages de préparation ciblés, adaptés aux exigences des épreuves et aux profils des candidats.
-          </div>
-        </div>
-      </section>
+  <header className="h-[400px] bg-trajectoireHeader gb-center bg-cover flex  items-center pl-10 bg-no-repeat ">
+      <div className="space-y-3">
+  <p className="text-4xl text-white font-dmserif">Préparez efficacement <span className="text-jauneOr " >vos concours et certifications post-bac</span> </p>
+  <p className="text-xl text-white font-dmserif  " >Vous visez une école de commerce ou une école d’ingénieur après le bac ?</p>
+  <p className="text-white  font-montserrat w-10/12 ">Vous souhaitez valoriser votre niveau en français ou en anglais avec une certification reconnue ?  <br/>  Nous vous proposons des stages de préparation ciblés, adaptés aux exigences des épreuves et aux profils des candidats.</p>
+      </div>
+     </header>
 
       {/* Section: Concours d'entrée en école de commerce */}
       <section className="py-16 bg-white">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="h-96 rounded-lg overflow-hidden flex items-center justify-center">
+        
+          <div className=" flex gap-14 m-auto   items-center w-10/12 ">
+            <div className="size-[25rem] rounded-lg overflow-hidden flex items-center justify-center">
               <img
-                src="/eb5c5d44a1164ca3f39990b7a055b717305d82f8.jpg"
+                src="/commerce.jpg"
                 alt="Étudiants préparant concours commerce"
-                className="object-cover w-3/4 h-full rounded-lg"
+                className="object-cover size-full object-center rounded-lg"
               />
             </div>
-            <div>
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">
-                <span className="text-yellow-400">Concours d'entrée</span> en école de <span className="text-yellow-400">commerce post-bac</span>
+            <div className=" space-y-5" >
+              <h2 className="text-3xl font-dmserif text-blue font-lato ">
+               Concours d'entrée  <span className="text-jauneOr "> en école de <br/> commerce post-bac</span>
               </h2>
-              <p className="text-lg text-gray-600 mb-6">
+              <p className="  ">
                 Nos stages vous préparent aux épreuves écrites et orales des principaux concours :
+                    
               </p>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <FaGraduationCap className="w-5 h-5 text-yellow-400 mt-1 flex-shrink-0" />
-                  <p className="text-gray-600">
+
+              <p className="  w-full">
+                <span className="text-jauneOr font-semibold ">Objectif :</span> s'entraîner sur les épreuves clés (logique, raisonnement, synthèse, anglais) 
+               <br/> et développer une posture convaincante à l'oral.
+                 </p>
+              <ul className="space-y-3">
+                <li className="flex   items-start space-x-2">
+                  <i className="fa-solid fa-graduation-cap text-jauneOr "></i>
+                  <span className="text-gray-600 text-sm font-medium ">
                     ACCES, SESAME
-                  </p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <FaGraduationCap className="w-5 h-5 text-yellow-400 mt-1 flex-shrink-0" />
-                  <p className="text-gray-600">
+                  </span>
+                </li>
+                <li className="flex items-start space-x-2 ">
+                   <i className="fa-solid fa-graduation-cap text-jauneOr "></i>
+
+                  <span className="text-gray-600 text-sm font-medium ">
                     Oraux de motivation des Bachelors et BBA (parcours hors concours commun)
-                  </p>
-                </div>
-              </div>
-              <p className="text-gray-600 mt-6">
-                <span className="text-yellow-400 font-semibold">Objectif :</span> s'entraîner sur les épreuves clés (logique, raisonnement, synthèse, anglais) 
-                et développer une posture convaincante à l'oral.
-              </p>
+                  </span>
+                </li>
+              </ul>
+
+                     <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+                        En savoir plus
+                    </button>
+           
             </div>
           </div>
-        </div>
+      
       </section>
 
       {/* Section: Concours d'entrée en école d'ingénieur */}
-      <section className="py-16 bg-gray-50">
+      {/* <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -112,10 +102,57 @@ const Concours = () => {
             </div>
           </div>
         </div>
+      </section> */}
+
+         <section className="py-16 bg-white">
+        
+          <div className=" flex gap-14 m-auto   items-center w-10/12 ">
+           
+            <div className=" space-y-5" >
+              <h2 className="text-3xl font-dmserif text-jauneOr font-lato ">
+               Concours d'entrée  <span className="text-blue "> en école<br/> d'ingénieur post-bac</span>
+              </h2>
+              <p className="  ">
+                Nous accompagnons les élèves souhaitant intégrer une école via les concours suivants : 
+                    
+              </p>
+
+                 <p className="  w-full">
+                <span className="text-jauneOr font-semibold ">Objectif :</span> 
+                 consolider les acquis scientifiques, optimiser la gestion du temps et réussir <br/> les entretiens de motivation.
+              </p>
+              <ul className="space-y-4">
+                <li className="flex   items-start space-x-2">
+                  <i className="fa-solid fa-graduation-cap text-jauneOr "></i>
+                  <span className=" text-sm font-medium ">
+                   Advance, Puissance Alpha, Avenir, GEIPI Polytech
+                  </span>
+                </li>
+                <li className="flex items-start space-x-2 ">
+                   <i className="fa-solid fa-graduation-cap text-jauneOr "></i>
+
+                  <span className=" text-sm font-medium ">
+                 Oraux des écoles hors concours commun, notamment les INSA, les UT (UTBM, UTC, UTT) <br/>  ou d’autres écoles sur dossier
+                  </span>
+                </li>
+              </ul>
+
+           
+            </div>
+
+             <div className="size-[25rem] rounded-lg overflow-hidden flex items-center justify-center">
+              <img
+                src="/ingenieur.jpg"
+                alt="Étudiants préparant concours commerce"
+                className="object-cover size-full object-center rounded-lg"
+              />
+            </div>
+          </div>
+      
       </section>
 
       {/* Section: Préparations aux certifications */}
-      <section className="py-16 bg-white">
+      {/* <section className="py-16 bg-white">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="h-96 rounded-lg flex items-center justify-center">
@@ -175,6 +212,75 @@ const Concours = () => {
             </div>
           </div>
         </div>
+      </section> */}
+
+         <section className="py-16 bg-white">
+        
+          <div className=" flex gap-14 m-auto   items-center w-10/12 ">
+           
+
+          <div className="size-[25rem] rounded-lg overflow-hidden flex items-center justify-center">
+              <img
+                src="/certificat.png"
+                alt="Étudiants préparant une certification"
+                className="object-cover size-full object-center rounded-lg"
+              />
+            </div>
+
+            <div className=" space-y-5" >
+              <h2 className="text-3xl font-dmserif text-blue font-lato ">
+               Preparation   <span className="text-jauneOr ">aux certificat en <br /> langue et en expression </span>: pour <br /> tous les ages
+
+              </h2>
+              <p className="   ">
+                Pour renforcer son dossier ou répondre aux attendus d’une formation, <br /> nous   proposons  des préparations aux:                    
+              </p>
+
+             <ul className="space-y-4">
+                <li className="flex   items-start space-x-2">
+                  <i className="fa-solid fa-graduation-cap text-jauneOr "></i>
+                  <span className=" text-sm font-medium ">
+                 Tests d’anglais (TOEIC®, IELTS®, CLOE)
+                  </span>
+                </li>
+                <li className="flex items-start space-x-2 ">
+                   <i className="fa-solid fa-graduation-cap text-jauneOr "></i>
+
+                  <span className=" text-sm font-medium ">
+              Certificat Voltaire (maîtrise de l’orthographe et de l’expression écrite)               
+              </span>
+                </li>
+              </ul>
+   
+           
+           <p>Nos formations combinent :</p>
+              <ul className="space-y-4">
+                <li className="flex   items-start space-x-2">
+                  <i className="fa-solid fa-graduation-cap text-jauneOr "></i>
+                  <span className="text-sm font-medium ">
+                   Advance, Puissance Alpha, Avenir, GEIPI Polytech
+                  </span>
+                </li>
+                <li className="flex items-start space-x-2 ">
+                   <i className="fa-solid fa-graduation-cap text-jauneOr "></i>
+
+                  <span className=" text-sm font-medium ">
+                 Oraux des écoles hors concours commun, notamment les INSA, les UT (UTBM, UTC, UTT) <br/>  ou d’autres écoles sur dossier
+                  </span>
+                </li>
+              </ul>
+
+           <p>Pour découvrir les programmes détaillés et les prochaines dates :</p>
+
+
+             <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+                     Accéder aux stages de préparation  <FaArrowRight className="inline" />
+                    </button>
+            </div>
+
+            
+          </div>
+      
       </section>
 
       {/* Section: Call to Action */}
