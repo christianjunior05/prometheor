@@ -35,7 +35,7 @@ export default function Navbar() {
   <ul className=" ChildMenu    absolute z-20 text-white   leading-10 bg-blue w-44  rounded-md  ">
       <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all   "><Link to="/trajectoire">Pack trajectoire </Link> </li>
       <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  "> <Link to="/exploration" >Pack exploration</Link>  </li>
-      <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  "> <Link to="repere">Pack repere </Link> </li>
+      <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  "> <Link to="/repere">Pack repere </Link> </li>
       <li className="cursor-pointer pl-2      rounded-b-md   bg-blue hover:text-jauneOr transition-all  "> <Link to="/parcours" >Pack parcoursup 360</Link>  </li>
     </ul>
 

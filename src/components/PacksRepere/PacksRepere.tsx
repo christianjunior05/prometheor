@@ -86,7 +86,7 @@ textbutton="Trouver un conseiller "
   image="section6.jpg"
   text1="Découvrez "
   text2="nos autres packs"
-  textbutton1="Pack exploration"
+  textbutton1="Pack Trajectoire"
   textbutton2="Pack exploration"
   icon={true}
   />
