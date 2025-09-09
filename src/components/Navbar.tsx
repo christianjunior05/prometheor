@@ -138,6 +138,7 @@ export default function Navbar() {
             <Link to="/">Accueil</Link>
           </li>
 
+
           <li className="menu hover:text-jauneOr transition-all cursor-pointer relative">
             Nos offres d'orientation
             <ul className="ChildMenu absolute z-20 text-white leading-10 bg-blue w-44 rounded-md">
@@ -155,6 +156,39 @@ export default function Navbar() {
               </li>
             </ul>
           </li>
+
+  
+  </li>
+  <li className=" menu  hover:text-jauneOr transition-all   ">
+
+   Nos offres d'orientation
+  <ul className=" ChildMenu    absolute z-20 text-white   leading-10 bg-blue w-44  rounded-md  ">
+      <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all   "><Link to="/trajectoire">Pack trajectoire </Link> </li>
+      <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  "> <Link to="/exploration" >Pack exploration</Link>  </li>
+      <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  "> <Link to="/repere">Pack repere </Link> </li>
+      <li className="cursor-pointer pl-2      rounded-b-md   bg-blue hover:text-jauneOr transition-all  "> <Link to="/parcours" >Pack parcoursup 360</Link>  </li>
+    </ul>
+
+  </li>
+  <li className="menu  hover:text-jauneOr transition-all   space-y-5  ">
+    Nos stages
+
+    <ul className="absolute ChildMenu text-white    bg-blue   rounded-md ">
+      <li className="cursor-pointer hover:text-jauneOr p-2 rounded-md transition-all bg-blue ">Concours et test post Bac</li>
+    </ul>
+  </li>
+  <li className="hover:text-jauneOr transition-all">
+    Nos conseillers
+  </li> 
+  <li className="hover:text-jauneOr transition-all">Qui sommes-nous</li>
+  <li className="hover:text-jauneOr transition-all">Nous contacter</li>
+  <li className="hover:text-jauneOr transition-all">Blog</li>
+  <li className="flex items-center space-x-2 text-jauneOr">
+    <HiOutlineLockClosed />
+    <span>Connexion</span>
+  </li>
+    </ul>
+
 
           <li className="menu hover:text-jauneOr transition-all cursor-pointer relative">
             Nos stages
