@@ -6,11 +6,8 @@ export default function Parcours() {
     <div className="min-h-screen">
       
       {/* Hero */}
-      <section
-        className="relative w-full h-[480px] bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/Hero1.jpg')" }}
-      >
-        <div className="absolute inset-0" style={{ background: "rgba(12, 11, 11, 0.38)" }}></div>
+      <section  className="relative w-full h-[480px] bg-cover bg-center bg-no-repeat" >
+        <div  ></div>
         <div className="absolute flex flex-col items-start gap-3 left-[65px] top-1/2 transform -translate-y-1/2 w-[1184px]">
           <div className="text-white font-['DM_Serif_Display'] text-[40px] leading-[52px]">
             <span className="block">Offre Parcoursup 360°</span>

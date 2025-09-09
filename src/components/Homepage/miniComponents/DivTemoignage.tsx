@@ -1,6 +1,3 @@
-
-
-
 type Typage = {
   commentaire: string;
   image?: boolean;
