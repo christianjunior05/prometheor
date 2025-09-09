@@ -46,7 +46,7 @@ textbutton="Trouver un conseiller "
 
   image="photo4.png"
   text1="Besoin de personnalié "
-  text2="votre accompagnement ?"
+  text2="votre accompagnement?"
   textbutton1="Contacter un conseiller " 
   paragraphe1="Chaque enfant est unique, avec ses forces, ses aspirations et parfois des besoins particuliers."
   paragraphe2="Chez Prometheor, nous co-construisons un accompagnement  adapté :  Rendez-vous de cadrage, mise en place d'une solution adaptée avec un suivi évolutif."
@@ -86,7 +86,7 @@ textbutton="Trouver un conseiller "
   image="section6.jpg"
   text1="Découvrez "
   text2="nos autres packs"
-  textbutton1="Pack exploration"
+  textbutton1="Pack Trajectoire"
   textbutton2="Pack exploration"
   icon={true}
   />
